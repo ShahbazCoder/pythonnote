@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<b:template xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <b:includable id='main'>
+    <b:section class='header' id='header' showaddelement='no'>
+      <header>Bookphilic - Python Notes</header>
+    </b:section>
+    
+    <b:section class='main' id='main' showaddelement='yes'>
+      <div class="container">
+        <h1>Introduction to Python</h1>
+        <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It is used for web development, data analysis, artificial intelligence, and scientific computing.</p>
+
+        <div class="note-box">
+            <strong>Note:</strong> Python is dynamically typed, which means you don't need to declare variable types explicitly.
+        </div>
+
+        <h2>Basic Syntax</h2>
+        <p>Here’s an example of a simple Python program:</p>
+
+        <pre><code># This is a comment
+print("Hello, World!")</code></pre>
+
+        <div class="example">
+            <strong>Example:</strong> The above code will output <code>Hello, World!</code> to the console.
+        </div>
+
+        <h2>Variables in Python</h2>
+        <p>Variables in Python are created when you assign a value to them. You don't need to declare their type explicitly.</p>
+        
+        <pre><code>x = 5   # An integer
+y = "Bookphilic"   # A string
+print(x)
+print(y)</code></pre>
+
+        <h2>Data Types in Python</h2>
+        <p>Python has several built-in data types:</p>
+        <ul>
+            <li><strong>Numbers:</strong> int, float, complex</li>
+            <li><strong>Strings:</strong> str</li>
+            <li><strong>Lists:</strong> list</li>
+            <li><strong>Tuples:</strong> tuple</li>
+            <li><strong>Dictionaries:</strong> dict</li>
+            <li><strong>Sets:</strong> set</li>
+        </ul>
+
+        <h2>Conditional Statements</h2>
+        <p>Conditional statements in Python are used to perform different actions based on conditions:</p>
+
+        <pre><code>x = 10
+if x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is less than 5")</code></pre>
+
+        <h2>Loops in Python</h2>
+        <p>Python supports two types of loops:</p>
+        <ul>
+            <li><strong>for loops</strong></li>
+            <li><strong>while loops</strong></li>
+        </ul>
+
+        <pre><code># Example of a for loop
+for i in range(5):
+    print(i)</code></pre>
+      </div>
+    </b:section>
+    
+    <b:section class='footer' id='footer'>
+      <footer>
+        © 2024 Bookphilic. All rights reserved.
+      </footer>
+    </b:section>
+  </b:includable>
+  
+  <!-- Blogger's essential widgets -->
+  <b:widget id='Blog' type='Blog' locked='true' title='Blog Posts' />
+  <b:widget id='BlogArchive' type='BlogArchive' locked='true' title='Archive' />
+</b:template>
